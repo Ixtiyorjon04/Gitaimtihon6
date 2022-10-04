@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        tools:layout="@layout/screen_splash"
+        android:id="@+id/splashScreen"
+        android:name="uz.gita.gitaimtihon6samandar.ui.screen.SplashScreen"
+        android:label="SplashScreen" >
+        <action
+            android:id="@+id/action_splashScreen_to_introScreen"
+            app:destination="@id/introScreen"
+            app:popUpTo="@id/nav_graph" />
+        <action
+            android:id="@+id/action_splashScreen_to_signInScreen"
+            app:destination="@id/signInScreen"
+            app:popUpTo="@id/nav_graph" />
+        <action
+            android:id="@+id/action_splashScreen_to_mainScreen"
+            app:destination="@id/mainScreen"
+            app:popUpTo="@id/nav_graph" />
+
+    </fragment>
+    <fragment
+        tools:layout="@layout/screen_main"
+        android:id="@+id/mainScreen"
+        android:name="uz.gita.gitaimtihon6samandar.ui.screen.MainScreen"
+        android:label="MainScreen" >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_mainScreen_to_studentsScreen"
+            app:destination="@id/studentsScreen" />
+        <action
+            android:id="@+id/action_mainScreen_to_signInScreen"
+            app:destination="@id/signInScreen"
+            app:popUpTo="@id/nav_graph" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/screen_intro"
+        android:id="@+id/introScreen"
+        android:name="uz.gita.gitaimtihon6samandar.ui.screen.IntroScreen"
+        android:label="IntroScreen" >
+
+        <action
+            android:id="@+id/action_introScreen_to_signInScreen"
+            app:destination="@id/signInScreen"
+            app:popUpTo="@id/nav_graph" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/screen_saign_up_auth"
+        android:id="@+id/signUpScreen"
+        android:name="uz.gita.gitaimtihon6samandar.ui.screen.auth.SignUpScreen"
+        android:label="SignUpScreen" >
+        <action
+            android:id="@+id/action_signUpScreen_to_signInScreen2"
+            app:destination="@id/signInScreen"
+            app:popUpTo="@id/signInScreen" />
+    </fragment>
+
+    <fragment
+        tools:layout="@layout/screen_sigin_in_auth"
+        android:id="@+id/signInScreen"
+        android:name="uz.gita.gitaimtihon6samandar.ui.screen.auth.SignInScreen"
+        android:label="SignInScreen" >
+        <action
+            android:id="@+id/action_signInScreen_to_mainScreen"
+            app:destination="@id/mainScreen"
+            app:popUpTo="@id/nav_graph" />
+        <action
+            android:id="@+id/action_signInScreen_to_signUpScreen"
+            app:destination="@id/signUpScreen" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/screen_students"
+        android:id="@+id/studentsScreen"
+        android:name="uz.gita.gitaimtihon6samandar.ui.screen.StudentsScreen"
+        android:label="StudentsScreen" >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+
+
+</navigation>

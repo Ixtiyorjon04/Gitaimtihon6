@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Gita imtihon 6/Gitaimtihon6/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Gita imtihon 6/Gitaimtihon6/app/src/main/res/layout/add_dialog.xml" value="0.25" />
+        <entry key="..\:/Gita imtihon 6/Gitaimtihon6/app/src/main/res/layout/dialog_delete.xml" value="0.25" />
+        <entry key="..\:/Gita imtihon 6/Gitaimtihon6/app/src/main/res/layout/dialog_log_out.xml" value="0.25" />
+        <entry key="..\:/Gita imtihon 6/Gitaimtihon6/app/src/main/res/layout/item_main.xml" value="0.175" />
+        <entry key="..\:/Gita imtihon 6/Gitaimtihon6/app/src/main/res/layout/item_student.xml" value="0.175" />
+        <entry key="..\:/Gita imtihon 6/Gitaimtihon6/app/src/main/res/layout/item_text.xml" value="0.25" />
+        <entry key="..\:/Gita imtihon 6/Gitaimtihon6/app/src/main/res/layout/menu_auth_screen.xml" value="0.25" />
+        <entry key="..\:/Gita imtihon 6/Gitaimtihon6/app/src/main/res/layout/page_intro.xml" value="0.25" />
+        <entry key="..\:/Gita imtihon 6/Gitaimtihon6/app/src/main/res/layout/screen_intro.xml" value="0.25" />
+        <entry key="..\:/Gita imtihon 6/Gitaimtihon6/app/src/main/res/layout/screen_main.xml" value="0.175" />
+        <entry key="..\:/Gita imtihon 6/Gitaimtihon6/app/src/main/res/layout/screen_saign_up_auth.xml" value="0.25" />
+        <entry key="..\:/Gita imtihon 6/Gitaimtihon6/app/src/main/res/layout/screen_sigin_in_auth.xml" value="0.25" />
+        <entry key="..\:/Gita imtihon 6/Gitaimtihon6/app/src/main/res/layout/screen_splash.xml" value="0.14629629629629629" />
+        <entry key="..\:/Gita imtihon 6/Gitaimtihon6/app/src/main/res/layout/screen_students.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
